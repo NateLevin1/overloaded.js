@@ -1,4 +1,6 @@
 console.log("Tests:");
+
+// Basic
 overload.function('add', [String, String], (a, b)=>{
     return "Added strings: "+a+b;
 });
@@ -9,6 +11,7 @@ overload.function('add', [Number, Number], (a, b)=>{
 console.log(overload.call('add', [1,2])); // "Added numbers: 3"
 console.log(overload.call('add', ["A","B"])); // "Added strings: AB"
 
+// Custom Classes
 class Hello {
     talk() {
         return "Hello!";
@@ -19,7 +22,6 @@ class Howdy {
         return "Howdy!";
     }
 }
-
 overload.function('talk', [Hello], (obj)=>{
     return obj.talk();
 });
