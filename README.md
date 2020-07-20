@@ -2,7 +2,7 @@
 Overloaded functions in javascript!
 
 Basic usage:
-```
+```javascript
 overload add(String, String, (a, b)=>{
   return "Added strings: "+a+b;
 });
