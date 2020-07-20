@@ -38,3 +38,15 @@ overload.function('talk', [Howdy], (obj)=>{
 console.log(overload.call('talk', [new Hello])); // "Hello!"
 console.log(overload.call('talk', [new Howdy])); // "Howdy!"
 ```
+
+# Compatibility
+Supports: <br>
+**Chrome**: 15+ <br>
+**Edge**: 14+ <br>
+**Firefox**: 1+ <br>
+**Internet Explorer**: None <br>
+**Opera**: 10.5+ <br>
+**Safari**: 6+ <br>
+**Node.js**: Yes <br>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name#bcd:javascript.builtins.Function.name">See full support data on MDN.</a>
