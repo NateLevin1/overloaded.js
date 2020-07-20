@@ -10,7 +10,6 @@ var overload = {
         types = types.map((val)=>{ return (val.name); });
         
         overload.keys[name][types.join(",")] = callback;
-        console.log(overload.keys);
     },
     call: (name, params)=>{
         // params[0] == function name
