@@ -10,6 +10,6 @@ overload.function('add', Number, Number, (a, b)=>{
     return "Added numbers: "+(a+b);
 });
 
-console.log(o.call('add', [1,2])); // "Added numbers: 3"
-console.log(o.call('add', ["A","B"])); // "Added strings: AB"
+console.log(overload.call('add', [1,2])); // "Added numbers: 3"
+console.log(overload.call('add', ["A","B"])); // "Added strings: AB"
 ```
