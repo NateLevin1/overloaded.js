@@ -1,5 +1,5 @@
 # overloaded.js
-Overloaded functions in javascrip in just 24 lines of code!
+Overloaded functions in javascript in just 24 lines of code!
 
 Basic usage:
 ```javascript
